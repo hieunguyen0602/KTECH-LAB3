@@ -9,5 +9,14 @@ function validationForm() {
     alert("Please fill out all the information with *!");
     return false;
   }
+
+  if(isNaN(phone)) {
+    alert("Please fill out correct phone number");
+    information["phone"].focus();
+    return false;
+  }
+
+  alert("Submit successful!");
+  return true;
 } 
 

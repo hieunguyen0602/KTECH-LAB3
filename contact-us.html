@@ -25,11 +25,11 @@
   <main>
     <h2>Ready to get started? Contact us today.</h2>
     <h2>Complete the form below to begin your free trial.</h2>
-    <form name="informationAccount" onsubmit="validationForm()">
-      <label>First Name*: <input type="text" name="firstName"></label><br>
-      <label>Last Name*: <input type="text" name="lastName"></label><br>
-      <label>Email*: <input type="email" name="email"></label><br>
-      <label>Phone*: <input type="tel" name="phone"></label><br>
+    <form name="informationAccount" onsubmit="return validationForm()">
+      <label>First Name<span style="color: red;">*</span>: <input type="text" name="firstName"></label><br>
+      <label>Last Name<span style="color: red;">*</span>: <input type="text" name="lastName"></label><br>
+      <label>Email<span style="color: red;">*</span>: <input type="email" name="email"></label><br>
+      <label>Phone<span style="color: red;">*</span>: <input type="tel" name="phone"></label><br>
       <div class="info-group">
         <span>I would like information about:</span><br>
         <label><input type="checkbox" name="info" value="Group Fitness">Group Fitness</label><br>
