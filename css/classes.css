@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  padding-top: 20px;
+  background-color: cornsilk;
+}
+
+footer {
+  background-color: cornsilk;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container-classes {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.container-classes-bg {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.table-wrapper {
+  padding: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.9);
+}
+
+.header-item {
+  background-color: gray;
+  color: white;
+  padding: 8px;
+}
+
+.cell-item {
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 100px; /* Vẫn giữ 40px cho tablet hoặc laptop */
+    padding-right: 100px;
+  }
+
+  /* .header-item {
+    padding: 8px;
+  } */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 10px; /* Trên điện thoại */
+    padding-right: 10px;
+  }
+
+  /* .header-item {
+    padding: 2px;
+  } */
+}

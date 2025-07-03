@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/contact-us.css">
+  <script src="./js/contact-us.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="./img/logo.png" alt="Like Lion Fitness Center" class="logo">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="./home.html">Home</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./classes.html">Classes</a></li>
+      <li><a href="./nutrition.html">Nutrition</a></li>
+      <li><a href="./contact-us.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Ready to get started? Contact us today.</h2>
+    <h2>Complete the form below to begin your free trial.</h2>
+    <form name="informationAccount" onsubmit="validationForm()">
+      <label>First Name*: <input type="text" name="firstName"></label><br>
+      <label>Last Name*: <input type="text" name="lastName"></label><br>
+      <label>Email*: <input type="email" name="email"></label><br>
+      <label>Phone*: <input type="tel" name="phone"></label><br>
+      <div class="info-group">
+        <span>I would like information about:</span><br>
+        <label><input type="checkbox" name="info" value="Group Fitness">Group Fitness</label><br>
+        <label><input type="checkbox" name="info" value="Personal Training">Personal Training</label><br>
+        <label><input type="checkbox" name="info" value="Nutrition">Nutrition</label>
+      </div>
+      <label>Referral Source:
+        <select name="referral">
+          <option>Advertisement</option>
+          <option>Friend</option>
+          <option>Internet</option>
+          <option>Other</option>
+        </select>
+      </label><br>
+      <label>Questions?<br>
+        <textarea name="questions" rows="2" cols="30"></textarea>
+      </label><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset Form</button>
+    </form>
+    <div class="contact-info">
+      <p>We are located at:<br>
+        COBI TOWER 2, 2-4 Street 8, Tan Phu<br>
+        District 7, Ho Chi Minh City</p>
+      <p>Phone Number:<br>
+        <a href="tel:0867133779">0867 133 779</a>
+      </p>
+      <p>Email Address:<br>
+        <a href="mailto:likelion.vn@likelion.net">likelion.vn@likelion.net</a>
+      </p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>
